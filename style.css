@@ -1,0 +1,74 @@
+h1{
+    color:#23abcd;
+}
+body{
+    background-color: #2016ab;
+}
+.menu{
+    display:flex;
+    flex-direction: column;
+    border: solid;
+align-items: center;
+margin:20px;
+background-image: conic-gradient(red, yellow, blue,orange,purple);
+
+;
+
+}
+.grid{
+    display:flex;
+    flex-direction: column;
+    background-color: #12AB91;
+    align-items: center;
+    border:solid ;
+    background-image: url('https://www.designyourway.net/blog/wp-content/uploads/2017/03/Anime-Wallpaper-Desktop-Background-29-1250x834.jpg'); 
+    background-repeat: no-repeat;
+
+    background-attachment: fixed; 
+     background-size: cover
+
+}
+.item h2{
+    color:red;
+    font-weight: bold;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+transform:translate(-50%,-50%) ;
+opacity: 0;
+} 
+.item:hover h2{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.5;
+}
+.item{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    background-color:#1441;
+    align-items: center;
+    border:solid ;
+    margin: 20px;
+    padding: 10px;
+    border-color: #2016ab;
+    border-width: 10px;
+    border-radius: 20px;
+
+}
+p{
+text-align: center;
+font-size: 30px; 
+font-weight: bold;   
+font-style: italic;
+color: #ffffff;
+text-shadow:5px 5px 5px #b0ccc2;
+}
+a:visited{
+    color: green;
+}
+a:link{
+    color:red;
+}
+
